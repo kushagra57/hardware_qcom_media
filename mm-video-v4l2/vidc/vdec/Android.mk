@@ -12,7 +12,7 @@ LOCAL_PATH:= $(ROOT_DIR)
 libOmxVdec-def := -D__alignx\(x\)=__attribute__\(\(__aligned__\(x\)\)\)
 libOmxVdec-def += -D__align=__alignx
 libOmxVdec-def += -Dinline=__inline
-libOmxVdec-def += -g -O3
+libOmxVdec-def += -g -O3 -Wno-error
 libOmxVdec-def += -DIMAGE_APPS_PROC
 libOmxVdec-def += -D_ANDROID_
 libOmxVdec-def += -DCDECL
