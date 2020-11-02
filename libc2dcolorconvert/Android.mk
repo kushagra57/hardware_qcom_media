@@ -6,6 +6,7 @@ LOCAL_SRC_FILES := \
         C2DColorConverter.cpp
 
 LOCAL_C_INCLUDES := \
+    $(TOP)/frameworks/av/media/libstagefright/include/media/stagefright \
     $(TOP)/frameworks/av/include/media/stagefright \
     $(TOP)/frameworks/native/include/media/openmax \
     $(TOP)/$(call project-path-for,qcom-display)/libcopybit \
